@@ -1,0 +1,32 @@
+{
+  "name": "icon-ts/base",
+  "description": "Base helper for first party laravel projects",
+  "type": "library",
+  "minimum-stability": "stable",
+  "version": "1.0.0",
+  "require-dev": {
+    "orchestra/testbench": "^7.22",
+    "phpunit/phpunit": "^9.5.10"
+  },
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "IconTs\\Base\\": "src/",
+      "IconTs\\Base\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "IconTs\\Base\\BaseServiceProvider"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "AhmedMamdouhGhazy",
+      "email": "a.ghazy819@gmail.com"
+    }
+  ],
+  "require": {}
+}
